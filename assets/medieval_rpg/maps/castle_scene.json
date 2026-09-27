@@ -1,0 +1,20 @@
+{
+  "id": "dark_lord_castle",
+  "size": [1254, 1254],
+  "background": "maps/castle_ground.png",
+  "spawn": [626, 1110],
+  "exits": [{"to": "field", "side": "south", "center": [626, 1240]}],
+  "objects": [
+    {"id": "gatehouse", "image": "props/gatehouse/gatehouse/prop.png", "center": [626, 187], "width": 260, "blocking": true},
+    {"id": "altar", "image": "props/castle/altar/prop.png", "center": [626, 350], "width": 150, "blocking": true},
+    {"id": "brazier_left", "image": "props/castle/brazier/prop.png", "center": [420, 440], "width": 75, "blocking": true},
+    {"id": "brazier_right", "image": "props/castle/brazier/prop.png", "center": [830, 440], "width": 75, "blocking": true},
+    {"id": "chest", "image": "props/castle/chest/prop.png", "center": [1048, 480], "width": 110, "blocking": true},
+    {"id": "skull_pedestal", "image": "props/castle/skull-pedestal/prop.png", "center": [210, 490], "width": 90, "blocking": true},
+    {"id": "obsidian_crystal", "image": "props/castle/obsidian-crystal/prop.png", "center": [1070, 970], "width": 100, "blocking": true},
+    {"id": "armor_stand", "image": "props/castle/armor-stand/prop.png", "center": [180, 960], "width": 100, "blocking": true},
+    {"id": "chains", "image": "props/castle/chains/prop.png", "center": [405, 805], "width": 85, "blocking": false},
+    {"id": "banner", "image": "props/castle/banner/prop.png", "center": [840, 785], "width": 82, "blocking": true}
+  ],
+  "actor_spawns": [{"role": "dark_lord", "position": [626, 540]}]
+}

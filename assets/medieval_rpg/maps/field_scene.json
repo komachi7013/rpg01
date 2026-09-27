@@ -1,0 +1,16 @@
+{
+  "id": "field",
+  "size": [1254, 1254],
+  "background": "maps/field_ground.png",
+  "spawn": [625, 1045],
+  "objects": [
+    {"id": "town", "image": "symbols/town/prop.png", "center": [600, 1060], "width": 190, "blocking": false, "destination": "small_town"},
+    {"id": "castle", "image": "symbols/castle/prop.png", "center": [687, 154], "width": 195, "blocking": false, "destination": "dark_lord_castle"},
+    {"id": "road_marker", "image": "symbols/road-marker/prop.png", "center": [780, 813], "width": 65, "blocking": false},
+    {"id": "forest", "image": "symbols/forest/prop.png", "center": [1000, 730], "width": 150, "blocking": false}
+  ],
+  "encounter_zones": [
+    {"id": "southern_meadow", "rect": [280, 650, 720, 420], "enemy": "slime"},
+    {"id": "northern_highlands", "rect": [250, 30, 780, 380], "enemy": "dragon"}
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "input": "/Users/komachi/work/rpg01/assets/medieval_rpg/raw/town_props.png",
+  "rows": 3,
+  "cols": 3,
+  "threshold": 100,
+  "edge_threshold": 150,
+  "component_mode": "largest",
+  "component_padding": 8,
+  "min_component_area": 100,
+  "edge_touch_margin": 0,
+  "accepted": [
+    {
+      "index": 0,
+      "label": "barrel",
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        418,
+        418
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 45531,
+      "selected_component_bbox": [
+        106,
+        81,
+        307,
+        345
+      ],
+      "crop_bbox": [
+        106,
+        81,
+        307,
+        345
+      ],
+      "padded_crop_bbox": [
+        98,
+        73,
+        315,
+        353
+      ],
+      "edge_touch": false,
+      "output_size": [
+        217,
+        280
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/town/barrel/prop.png"
+    },
+    {
+      "index": 1,
+      "label": "crates",
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        418,
+        0,
+        836,
+        418
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 58105,
+      "selected_component_bbox": [
+        63,
+        64,
+        349,
+        342
+      ],
+      "crop_bbox": [
+        63,
+        64,
+        349,
+        342
+      ],
+      "padded_crop_bbox": [
+        55,
+        56,
+        357,
+        350
+      ],
+      "edge_touch": false,
+      "output_size": [
+        302,
+        294
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/town/crates/prop.png"
+    },
+    {
+      "index": 2,
+      "label": "signpost",
+      "grid": [
+        0,
+        2
+      ],
+      "source_box": [
+        836,
+        0,
+        1254,
+        418
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 31646,
+      "selected_component_bbox": [
+        69,
+        46,
+        338,
+        367
+      ],
+      "crop_bbox": [
+        69,
+        46,
+        338,
+        367
+      ],
+      "padded_crop_bbox": [
+        61,
+        38,
+        346,
+        375
+      ],
+      "edge_touch": false,
+      "output_size": [
+        285,
+        337
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/town/signpost/prop.png"
+    },
+    {
+      "index": 3,
+      "label": "well",
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        418,
+        418,
+        836
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 65674,
+      "selected_component_bbox": [
+        69,
+        30,
+        352,
+        361
+      ],
+      "crop_bbox": [
+        69,
+        30,
+        352,
+        361
+      ],
+      "padded_crop_bbox": [
+        61,
+        22,
+        360,
+        369
+      ],
+      "edge_touch": false,
+      "output_size": [
+        299,
+        347
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/town/well/prop.png"
+    },
+    {
+      "index": 4,
+      "label": "lantern",
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        418,
+        418,
+        836,
+        836
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 26909,
+      "selected_component_bbox": [
+        112,
+        30,
+        294,
+        364
+      ],
+      "crop_bbox": [
+        112,
+        30,
+        294,
+        364
+      ],
+      "padded_crop_bbox": [
+        104,
+        22,
+        302,
+        372
+      ],
+      "edge_touch": false,
+      "output_size": [
+        198,
+        350
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/town/lantern/prop.png"
+    },
+    {
+      "index": 5,
+      "label": "flower-pot",
+      "grid": [
+        1,
+        2
+      ],
+      "source_box": [
+        836,
+        418,
+        1254,
+        836
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 33623,
+      "selected_component_bbox": [
+        95,
+        78,
+        314,
+        331
+      ],
+      "crop_bbox": [
+        95,
+        78,
+        314,
+        331
+      ],
+      "padded_crop_bbox": [
+        87,
+        70,
+        322,
+        339
+      ],
+      "edge_touch": false,
+      "output_size": [
+        235,
+        269
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/town/flower-pot/prop.png"
+    },
+    {
+      "index": 6,
+      "label": "hay-bale",
+      "grid": [
+        2,
+        0
+      ],
+      "source_box": [
+        0,
+        836,
+        418,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 50253,
+      "selected_component_bbox": [
+        66,
+        72,
+        355,
+        312
+      ],
+      "crop_bbox": [
+        66,
+        72,
+        355,
+        312
+      ],
+      "padded_crop_bbox": [
+        58,
+        64,
+        363,
+        320
+      ],
+      "edge_touch": false,
+      "output_size": [
+        305,
+        256
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/town/hay-bale/prop.png"
+    },
+    {
+      "index": 7,
+      "label": "market-basket",
+      "grid": [
+        2,
+        1
+      ],
+      "source_box": [
+        418,
+        836,
+        836,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 40397,
+      "selected_component_bbox": [
+        89,
+        56,
+        322,
+        313
+      ],
+      "crop_bbox": [
+        89,
+        56,
+        322,
+        313
+      ],
+      "padded_crop_bbox": [
+        81,
+        48,
+        330,
+        321
+      ],
+      "edge_touch": false,
+      "output_size": [
+        249,
+        273
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/town/market-basket/prop.png"
+    },
+    {
+      "index": 8,
+      "label": "shrub",
+      "grid": [
+        2,
+        2
+      ],
+      "source_box": [
+        836,
+        836,
+        1254,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 43374,
+      "selected_component_bbox": [
+        73,
+        57,
+        320,
+        316
+      ],
+      "crop_bbox": [
+        73,
+        57,
+        320,
+        316
+      ],
+      "padded_crop_bbox": [
+        65,
+        49,
+        328,
+        324
+      ],
+      "edge_touch": false,
+      "output_size": [
+        263,
+        275
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/town/shrub/prop.png"
+    }
+  ],
+  "rejected": [],
+  "edge_touch_props": []
+}

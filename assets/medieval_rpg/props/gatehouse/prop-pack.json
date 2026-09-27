@@ -1,0 +1,57 @@
+{
+  "input": "/Users/komachi/work/rpg01/assets/medieval_rpg/raw/gatehouse.png",
+  "rows": 1,
+  "cols": 1,
+  "threshold": 100,
+  "edge_threshold": 150,
+  "component_mode": "largest",
+  "component_padding": 8,
+  "min_component_area": 100,
+  "edge_touch_margin": 0,
+  "accepted": [
+    {
+      "index": 0,
+      "label": "gatehouse",
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        1312,
+        1199
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 986836,
+      "selected_component_bbox": [
+        42,
+        31,
+        1263,
+        1089
+      ],
+      "crop_bbox": [
+        42,
+        31,
+        1263,
+        1089
+      ],
+      "padded_crop_bbox": [
+        34,
+        23,
+        1271,
+        1097
+      ],
+      "edge_touch": false,
+      "output_size": [
+        1237,
+        1074
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/gatehouse/gatehouse/prop.png"
+    }
+  ],
+  "rejected": [],
+  "edge_touch_props": []
+}

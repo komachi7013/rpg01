@@ -1,0 +1,395 @@
+{
+  "input": "/Users/komachi/work/rpg01/assets/medieval_rpg/raw/castle_props.png",
+  "rows": 3,
+  "cols": 3,
+  "threshold": 100,
+  "edge_threshold": 150,
+  "component_mode": "largest",
+  "component_padding": 8,
+  "min_component_area": 100,
+  "edge_touch_margin": 0,
+  "accepted": [
+    {
+      "index": 0,
+      "label": "brazier",
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        418,
+        418
+      ],
+      "component_mode": "largest",
+      "component_count": 3,
+      "selected_component_area": 37339,
+      "selected_component_bbox": [
+        89,
+        94,
+        322,
+        375
+      ],
+      "crop_bbox": [
+        89,
+        94,
+        322,
+        375
+      ],
+      "padded_crop_bbox": [
+        81,
+        86,
+        330,
+        383
+      ],
+      "edge_touch": false,
+      "output_size": [
+        249,
+        297
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/castle/brazier/prop.png"
+    },
+    {
+      "index": 1,
+      "label": "skull-pedestal",
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        418,
+        0,
+        836,
+        418
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 40971,
+      "selected_component_bbox": [
+        115,
+        57,
+        291,
+        359
+      ],
+      "crop_bbox": [
+        115,
+        57,
+        291,
+        359
+      ],
+      "padded_crop_bbox": [
+        107,
+        49,
+        299,
+        367
+      ],
+      "edge_touch": false,
+      "output_size": [
+        192,
+        318
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/castle/skull-pedestal/prop.png"
+    },
+    {
+      "index": 2,
+      "label": "chest",
+      "grid": [
+        0,
+        2
+      ],
+      "source_box": [
+        836,
+        0,
+        1254,
+        418
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 65884,
+      "selected_component_bbox": [
+        55,
+        106,
+        362,
+        349
+      ],
+      "crop_bbox": [
+        55,
+        106,
+        362,
+        349
+      ],
+      "padded_crop_bbox": [
+        47,
+        98,
+        370,
+        357
+      ],
+      "edge_touch": false,
+      "output_size": [
+        323,
+        259
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/castle/chest/prop.png"
+    },
+    {
+      "index": 3,
+      "label": "armor-stand",
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        418,
+        418,
+        836
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 34990,
+      "selected_component_bbox": [
+        104,
+        24,
+        286,
+        367
+      ],
+      "crop_bbox": [
+        104,
+        24,
+        286,
+        367
+      ],
+      "padded_crop_bbox": [
+        96,
+        16,
+        294,
+        375
+      ],
+      "edge_touch": false,
+      "output_size": [
+        198,
+        359
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/castle/armor-stand/prop.png"
+    },
+    {
+      "index": 4,
+      "label": "chains",
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        418,
+        418,
+        836,
+        836
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 43567,
+      "selected_component_bbox": [
+        37,
+        127,
+        371,
+        347
+      ],
+      "crop_bbox": [
+        37,
+        127,
+        371,
+        347
+      ],
+      "padded_crop_bbox": [
+        29,
+        119,
+        379,
+        355
+      ],
+      "edge_touch": false,
+      "output_size": [
+        350,
+        236
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/castle/chains/prop.png"
+    },
+    {
+      "index": 5,
+      "label": "obsidian-crystal",
+      "grid": [
+        1,
+        2
+      ],
+      "source_box": [
+        836,
+        418,
+        1254,
+        836
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 47471,
+      "selected_component_bbox": [
+        92,
+        27,
+        323,
+        368
+      ],
+      "crop_bbox": [
+        92,
+        27,
+        323,
+        368
+      ],
+      "padded_crop_bbox": [
+        84,
+        19,
+        331,
+        376
+      ],
+      "edge_touch": false,
+      "output_size": [
+        247,
+        357
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/castle/obsidian-crystal/prop.png"
+    },
+    {
+      "index": 6,
+      "label": "altar",
+      "grid": [
+        2,
+        0
+      ],
+      "source_box": [
+        0,
+        836,
+        418,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 61193,
+      "selected_component_bbox": [
+        57,
+        29,
+        357,
+        332
+      ],
+      "crop_bbox": [
+        57,
+        29,
+        357,
+        332
+      ],
+      "padded_crop_bbox": [
+        49,
+        21,
+        365,
+        340
+      ],
+      "edge_touch": false,
+      "output_size": [
+        316,
+        319
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/castle/altar/prop.png"
+    },
+    {
+      "index": 7,
+      "label": "cage",
+      "grid": [
+        2,
+        1
+      ],
+      "source_box": [
+        418,
+        836,
+        836,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 45326,
+      "selected_component_bbox": [
+        111,
+        4,
+        296,
+        355
+      ],
+      "crop_bbox": [
+        111,
+        4,
+        296,
+        355
+      ],
+      "padded_crop_bbox": [
+        103,
+        0,
+        304,
+        363
+      ],
+      "edge_touch": false,
+      "output_size": [
+        201,
+        363
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/castle/cage/prop.png"
+    },
+    {
+      "index": 8,
+      "label": "banner",
+      "grid": [
+        2,
+        2
+      ],
+      "source_box": [
+        836,
+        836,
+        1254,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 35963,
+      "selected_component_bbox": [
+        95,
+        0,
+        319,
+        362
+      ],
+      "crop_bbox": [
+        95,
+        0,
+        319,
+        362
+      ],
+      "padded_crop_bbox": [
+        87,
+        0,
+        327,
+        370
+      ],
+      "edge_touch": true,
+      "output_size": [
+        240,
+        370
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/props/castle/banner/prop.png"
+    }
+  ],
+  "rejected": [],
+  "edge_touch_props": [
+    "banner"
+  ]
+}

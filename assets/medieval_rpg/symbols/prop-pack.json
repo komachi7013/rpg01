@@ -1,0 +1,183 @@
+{
+  "input": "/Users/komachi/work/rpg01/assets/medieval_rpg/raw/field_symbols.png",
+  "rows": 2,
+  "cols": 2,
+  "threshold": 100,
+  "edge_threshold": 150,
+  "component_mode": "largest",
+  "component_padding": 8,
+  "min_component_area": 100,
+  "edge_touch_margin": 0,
+  "accepted": [
+    {
+      "index": 0,
+      "label": "town",
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "component_mode": "largest",
+      "component_count": 2,
+      "selected_component_area": 154314,
+      "selected_component_bbox": [
+        68,
+        57,
+        575,
+        565
+      ],
+      "crop_bbox": [
+        68,
+        57,
+        575,
+        565
+      ],
+      "padded_crop_bbox": [
+        60,
+        49,
+        583,
+        573
+      ],
+      "edge_touch": false,
+      "output_size": [
+        523,
+        524
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/symbols/town/prop.png"
+    },
+    {
+      "index": 1,
+      "label": "castle",
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 145132,
+      "selected_component_bbox": [
+        48,
+        21,
+        571,
+        597
+      ],
+      "crop_bbox": [
+        48,
+        21,
+        571,
+        597
+      ],
+      "padded_crop_bbox": [
+        40,
+        13,
+        579,
+        605
+      ],
+      "edge_touch": false,
+      "output_size": [
+        539,
+        592
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/symbols/castle/prop.png"
+    },
+    {
+      "index": 2,
+      "label": "road-marker",
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 64041,
+      "selected_component_bbox": [
+        139,
+        141,
+        502,
+        462
+      ],
+      "crop_bbox": [
+        139,
+        141,
+        502,
+        462
+      ],
+      "padded_crop_bbox": [
+        131,
+        133,
+        510,
+        470
+      ],
+      "edge_touch": false,
+      "output_size": [
+        379,
+        337
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/symbols/road-marker/prop.png"
+    },
+    {
+      "index": 3,
+      "label": "forest",
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 141764,
+      "selected_component_bbox": [
+        61,
+        46,
+        554,
+        539
+      ],
+      "crop_bbox": [
+        61,
+        46,
+        554,
+        539
+      ],
+      "padded_crop_bbox": [
+        53,
+        38,
+        562,
+        547
+      ],
+      "edge_touch": false,
+      "output_size": [
+        509,
+        509
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/symbols/forest/prop.png"
+    }
+  ],
+  "rejected": [],
+  "edge_touch_props": []
+}

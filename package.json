@@ -1,0 +1,1 @@
+{"name":"short-rpg","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"tsc && vite build && cp -R assets/medieval_rpg dist/assets/medieval_rpg","preview":"vite preview --host 0.0.0.0"},"dependencies":{"phaser":"^3.90.0"},"devDependencies":{"typescript":"^5.9.2","vite":"^7.1.0"}}

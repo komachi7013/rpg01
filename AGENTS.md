@@ -1,0 +1,2 @@
+- TypeScript で実装したブラウザ RPG ゲームです
+- 画像素材は assets/ に置きます

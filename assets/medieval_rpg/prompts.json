@@ -1,0 +1,20 @@
+{
+  "art_style": "clean hand-painted HD medieval fantasy RPG, top-down or three-quarter view",
+  "generated_by": "built-in image_gen",
+  "raw_prompts": {
+    "town_ground": "Top-down medieval fantasy RPG small town ground foundation only: central pale cobblestone square, branching roads, grassy plots, lower-left pond, garden soil. No buildings, props, people, labels or UI.",
+    "castle_ground": "Top-down dark lord castle ground foundation only: basalt floor, central aisle and northern dais, side floor patterns, lava outside walkable stone. No walls, gate, props, characters, labels or UI.",
+    "field_ground": "Top-down fantasy RPG field ground foundation only: meadow, northern highlands, road from south to north, forest regions, winding river and crossing. No town or castle symbols, props, people, labels or UI.",
+    "hero": "Exact 2x2 idle animation grid of one female medieval warrior, auburn braid, steel armor, blue tunic, shield and sheathed sword; same scale, fixed feet, central safe area; solid #FF00FF background and no grid or text.",
+    "hero_walk": "Use the accepted heroine as the identity reference. Exact 4-column x 4-row directional walk grid; rows down, left, right, up, with four sequential steps each. Preserve auburn braid, steel armor, blue fleur-de-lis tunic, left-arm blue shield, right-hip sword, scale and grounded feet. Full bodies centered in each cell with magenta padding. Solid #FF00FF background, no grid, effects, text or scenery.",
+    "residents": "Exact 2x2 pack: elderly shopkeeper, young farmer, village healer and town guard, one full-body NPC per cell; solid #FF00FF background, no grid or text.",
+    "slime": "Exact 2x2 idle animation grid of one translucent emerald green slime with dark eyes; same scale, fixed center; solid #FF00FF background, no grid or text.",
+    "dragon": "Exact 2x2 idle animation grid of one red dragon with tan belly, folded wings, horns and tucked tail; same scale and silhouette envelope; solid #FF00FF background, no grid or text.",
+    "dark_lord": "Exact 2x2 rooted idle animation grid of one horn-crowned dark lord in black armor and purple cape; fixed feet and pelvis; solid #FF00FF background, no grid or text.",
+    "cottage": "Single isolated medieval timber-frame cottage with blue slate roof, door and flower boxes; fully visible on solid #FF00FF background, no text.",
+    "gatehouse": "Single isolated dark castle gatehouse, black basalt, iron portcullis, crimson banners and violet crest; fully visible on solid #FF00FF background, no text.",
+    "town_props": "Exact 3x3 village prop pack: barrel, crates, blank signpost, well, lantern, flower pot, hay bale, market basket and shrub; solid #FF00FF background, no grid or text.",
+    "castle_props": "Exact 3x3 dark castle prop pack: purple brazier, skull pedestal, iron chest, armor stand, chains, obsidian crystal, altar, cage and banner; solid #FF00FF background, no grid or text.",
+    "field_symbols": "Exact 2x2 overworld symbol pack: blue-roof town, dark castle, road marker and forest landmark; solid #FF00FF background, no grid or text."
+  }
+}

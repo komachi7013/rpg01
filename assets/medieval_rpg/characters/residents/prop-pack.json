@@ -1,0 +1,183 @@
+{
+  "input": "/Users/komachi/work/rpg01/assets/medieval_rpg/raw/residents.png",
+  "rows": 2,
+  "cols": 2,
+  "threshold": 100,
+  "edge_threshold": 150,
+  "component_mode": "largest",
+  "component_padding": 8,
+  "min_component_area": 100,
+  "edge_touch_margin": 0,
+  "accepted": [
+    {
+      "index": 0,
+      "label": "shopkeeper",
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 78510,
+      "selected_component_bbox": [
+        179,
+        81,
+        442,
+        530
+      ],
+      "crop_bbox": [
+        179,
+        81,
+        442,
+        530
+      ],
+      "padded_crop_bbox": [
+        171,
+        73,
+        450,
+        538
+      ],
+      "edge_touch": false,
+      "output_size": [
+        279,
+        465
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/characters/residents/shopkeeper/prop.png"
+    },
+    {
+      "index": 1,
+      "label": "farmer",
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 73613,
+      "selected_component_bbox": [
+        179,
+        69,
+        470,
+        529
+      ],
+      "crop_bbox": [
+        179,
+        69,
+        470,
+        529
+      ],
+      "padded_crop_bbox": [
+        171,
+        61,
+        478,
+        537
+      ],
+      "edge_touch": false,
+      "output_size": [
+        307,
+        476
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/characters/residents/farmer/prop.png"
+    },
+    {
+      "index": 2,
+      "label": "healer",
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 76599,
+      "selected_component_bbox": [
+        190,
+        64,
+        434,
+        531
+      ],
+      "crop_bbox": [
+        190,
+        64,
+        434,
+        531
+      ],
+      "padded_crop_bbox": [
+        182,
+        56,
+        442,
+        539
+      ],
+      "edge_touch": false,
+      "output_size": [
+        260,
+        483
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/characters/residents/healer/prop.png"
+    },
+    {
+      "index": 3,
+      "label": "guard",
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 86473,
+      "selected_component_bbox": [
+        172,
+        15,
+        453,
+        531
+      ],
+      "crop_bbox": [
+        172,
+        15,
+        453,
+        531
+      ],
+      "padded_crop_bbox": [
+        164,
+        7,
+        461,
+        539
+      ],
+      "edge_touch": false,
+      "output_size": [
+        297,
+        532
+      ],
+      "status": "accepted",
+      "image": "/Users/komachi/work/rpg01/assets/medieval_rpg/characters/residents/guard/prop.png"
+    }
+  ],
+  "rejected": [],
+  "edge_touch_props": []
+}

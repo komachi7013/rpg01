@@ -1,0 +1,25 @@
+{
+  "id": "small_town",
+  "size": [1254, 1254],
+  "background": "maps/town_ground.png",
+  "spawn": [626, 1080],
+  "exits": [{"to": "field", "side": "south", "center": [626, 1240]}],
+  "objects": [
+    {"id": "northwest_house", "image": "props/cottage/cottage/prop.png", "center": [275, 235], "width": 270, "blocking": true},
+    {"id": "northeast_house", "image": "props/cottage/cottage/prop.png", "center": [998, 240], "width": 250, "blocking": true},
+    {"id": "southeast_house", "image": "props/cottage/cottage/prop.png", "center": [990, 940], "width": 245, "blocking": true},
+    {"id": "well", "image": "props/town/well/prop.png", "center": [500, 530], "width": 110, "blocking": true},
+    {"id": "signpost", "image": "props/town/signpost/prop.png", "center": [745, 425], "width": 75, "blocking": true},
+    {"id": "barrel", "image": "props/town/barrel/prop.png", "center": [922, 528], "width": 65, "blocking": true},
+    {"id": "crates", "image": "props/town/crates/prop.png", "center": [1030, 510], "width": 85, "blocking": true},
+    {"id": "flower_pot", "image": "props/town/flower-pot/prop.png", "center": [830, 815], "width": 63, "blocking": false},
+    {"id": "hay_bale", "image": "props/town/hay-bale/prop.png", "center": [290, 745], "width": 100, "blocking": true},
+    {"id": "lantern", "image": "props/town/lantern/prop.png", "center": [777, 764], "width": 58, "blocking": true}
+  ],
+  "actor_spawns": [
+    {"role": "shopkeeper", "position": [860, 620]},
+    {"role": "farmer", "position": [350, 870]},
+    {"role": "healer", "position": [700, 905]},
+    {"role": "guard", "position": [630, 330]}
+  ]
+}
